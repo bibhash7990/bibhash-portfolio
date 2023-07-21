@@ -7,9 +7,9 @@ import {
   Hero,
   Navbar,
   Tech,
+  Resume,
   Works,
   StarsCanvas,
-  Resume,
 } from "./components";
 
 const App = () => {

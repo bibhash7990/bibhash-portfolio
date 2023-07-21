@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  praveen,
+  sun,
+  lupin,
 } from "../assets";
 
 export const navLinks = [
@@ -50,17 +53,21 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "ReactJs Developer",
+    icon: reactjs,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Javascript Developer",
+    icon: javascript,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -76,10 +83,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -92,83 +99,83 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Tranee chemist",
+    company_name: "Praveen laboratory Pvt. Ltd.",
+    icon: praveen,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2020 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Assisted in managing pharmaceutical production operations, adhering to regulatory guidelines and quality standards",
+      "Finished tasks within assigned timeframes and to desired specifications.",
+      "Read and interpreted technical documentation to create items according to specifications and requirements.",
+      "Worked with production engineers to update documentation in line with production techniques.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Production Officer",
+    company_name: "Sun Pharmaceutical Ltd",
+    icon: sun,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2022 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with cross-functional teams to optimize manufacturing efficiency and resolve technical issues.",
+      "Tracked employee productivity, performance and task completion to meet quality standards.",
+      "Logged daily manufacturing activities and prepared reports for management.",
+      "Planned and delegated work to meet project or production goals.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Production Executive",
+    company_name: "Lupin Ltd",
+    icon: lupin,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Professional Experience:Ensured profitable operations, conducting market research and reviewing     production and sales costs.",
+      "Identified staffing and capital needs, collecting relevant data to facilitate decision-making.",
+      "Trained, mentored and counselled employees to develop high-performing team.",
+      "Implemented Root Cause Analysis (RCA) and corrective actions to remove production constraints and improve product quality.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Self Learning",
+    company_name: "Open Source",
+    icon: reactjs,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2023 - Present",
     points: [
+      "Developing soft skills like HTML, CSS, Javascript, and ReactJs",
+      "Learnt and followed department processes to help develop software according to requirements.",
+      "identified and suggested opportunities for innovative platform improvements, using developed design and building skills.",
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];

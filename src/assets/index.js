@@ -26,6 +26,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import praveen from "./company/praveen.jpeg";
+import sun from "./company/sun.png";
+import lupin from "./company/lupin.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -59,4 +63,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  praveen,
+  sun,
+  lupin,
 };
