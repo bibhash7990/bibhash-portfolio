@@ -1,8 +1,13 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import MyCv from "./cv.pdf";
 
 const Hero = () => {
+  // const handleResumeClick = () => {
+  //   console.log("Resume clicked!"); // Add this log to check if the click event is fired.
+  // };
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -19,9 +24,20 @@ const Hero = () => {
             Hi, I&apos;m <span className="text-[#915eff]">Bibhash</span>
           </h1>
           <p className={`${styles.heroSubText} my-2 text-white-100`}>
-            I develop Frontend Web Application
-            <br className="sm:block hidden" /> and User Interfaces.
+            I develop Frontend Web Application.
+            <br className="sm:block hidden" />
           </p>
+          {/* <div
+            className={`flex border-4 w-[120px] text-center text-1 p-1 cursor-pointer`}
+            onClick={handleResumeClick}
+          >
+            <a
+              href={MyCv} // Replace with the actual path to your resume PDF
+              download="Bibhash_cv"
+            >
+              Get Resume
+            </a>
+          </div> */}
         </div>
       </div>
 
