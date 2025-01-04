@@ -29,6 +29,8 @@ import tesla from "./company/tesla.png";
 import praveen from "./company/praveen.jpeg";
 import sun from "./company/sun.png";
 import lupin from "./company/lupin.png";
+import elixir from "./company/3elixir.png";
+import sourcecube from "./company/sourcecube.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -36,6 +38,8 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  elixir,
+  sourcecube,
   backend,
   creator,
   mobile,

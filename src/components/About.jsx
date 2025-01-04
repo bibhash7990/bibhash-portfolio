@@ -43,13 +43,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Motivated and dedicated professional with a background in
-        Chemical Engineering and experience in the pharmaceutical industry.
-        Successfully transitioned from a non-tech role to pursue a career in IT
-        and frontend development. Strong knowledge of HTML, CSS, JavaScript, and
-        ReactJS. Seeking opportunities to leverage my technical skills and
-        passion for coding to contribute to innovative projects in the tech
-        industry.
+        Skilled in designing and developing responsive web applications.
+        Proficient in HTML, CSS, JavaScript, and React.js, with a strong focus
+        on creating user-friendly interfaces and ensuring optimal performance.
+        Proven ability to collaborate in agile teams, debug complex issues, and
+        deliver high-quality solutions that meet client requirements. Passionate
+        about staying updated with emerging web technologies and driving
+        innovation in frontend development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

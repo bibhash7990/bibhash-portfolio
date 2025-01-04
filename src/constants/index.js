@@ -26,6 +26,8 @@ import {
   praveen,
   sun,
   lupin,
+  elixir,
+  sourcecube,
 } from "../assets";
 
 export const navLinks = [
@@ -33,10 +35,10 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
-  {
-    id: "work",
-    title: "Work",
-  },
+  // {
+  //   id: "work",
+  //   title: "Work",
+  // },
   {
     id: "contact",
     title: "Contact",
@@ -176,6 +178,29 @@ const experiences = [
       "Learnt and followed department processes to help develop software according to requirements.",
       "identified and suggested opportunities for innovative platform improvements, using developed design and building skills.",
       "Developing and maintaining web applications using React.js and other related technologies.",
+    ],
+  },
+  {
+    title: "Jr Software developer Trainee",
+    company_name: "3Elixir software solution",
+    icon: elixir,
+    iconBg: "#E6DEDD",
+    date: "Sep 2023 - Oct 2023",
+    points: [
+      "Acquired foundational knowledge of React.js, Git workflows, and best practices for organizing and structuring project folders.",
+      "Strengthened skills in HTML, CSS, and JavaScript by building interactive and visually appealing user interfaces.",
+    ],
+  },
+  {
+    title: "Jr. Software Developer",
+    company_name: "Sourcecube Technology Pvt. Ltd.",
+    icon: sourcecube,
+    iconBg: "#E6DEDD",
+    date: "Nov 2023 - Present",
+    points: [
+      "•Designed, developed, and maintained responsive web applications using React.js, ensuring seamless integration with RESTful APIs.",
+      "•Optimized application performance, adhered to best practices, and conducted thorough testing to deliver high-quality solutions.",
+      "•Collaborated within Agile teams, managed state using Redux, and actively participated in code reviews to enhance overall code quality and user experience.",
     ],
   },
 ];

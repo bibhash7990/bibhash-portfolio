@@ -10,7 +10,7 @@ const Resume = () => {
   const handleDownload = () => {
     const downloadLink = document.createElement("a");
     downloadLink.href = MyCv; // Replace with the actual path to your resume PDF
-    downloadLink.download = "bibhash-lenka.pdf"; // Replace with the actual filename of your resume
+    downloadLink.download = "Bibhash-lenka-CV.pdf"; // Replace with the actual filename of your resume
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
